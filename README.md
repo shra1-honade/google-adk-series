@@ -108,7 +108,7 @@ graph TD
     FA -->|output_key| State
     SA -->|output_key| State
     WA -->|output_key| State
-    State -->|{placeholders}| PL
+    State -->|"state placeholders"| PL
     PL --> Plan
 ```
 
