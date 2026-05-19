@@ -1,0 +1,39 @@
+# Environment — ignore real secrets, keep the example template
+.env
+.env.local
+.env.*.local
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Posts / drafts
+posts/
+
+# Audit logs (runtime output)
+audit.log
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
