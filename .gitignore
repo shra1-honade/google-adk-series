@@ -8,10 +8,8 @@
 venv/
 env/
 
-# Posts / drafts (ignore everything except PNGs)
+# Posts / drafts
 posts/
-!posts/
-!posts/**/*.png
 
 # Audit logs (runtime output)
 audit.log
