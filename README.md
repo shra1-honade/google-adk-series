@@ -35,6 +35,29 @@ graph LR
 
 ---
 
+## Visual Overview
+
+<table>
+  <tr>
+    <td align="center"><strong>01 — Simple Agent</strong><br><img src="01-simple-agent.png" alt="Simple Agent" /></td>
+    <td align="center"><strong>02 — Session Memory</strong><br><img src="02-session-memory-agent.png" alt="Session Memory" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>03 — State Management</strong><br><img src="03-state-management-agent.png" alt="State Management" /></td>
+    <td align="center"><strong>04 — Built-in Tools</strong><br><img src="04-tools-agent.png" alt="Built-in Tools" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>05 — Custom Tool</strong><br><img src="05-custom-tool-agent.png" alt="Custom Tool" /></td>
+    <td align="center"><strong>06 — Parallel Agents</strong><br><img src="06-parallel-agents.png" alt="Parallel Agents" /></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>07 — Sequential + Parallel</strong><br><img src="07-sequential-parallel-agents.png" alt="Sequential + Parallel" /></td>
+    <td align="center"><strong>08 — Callbacks &amp; Governance</strong><br><img src="08-callbacks-filters-rate-limiter.png" alt="Callbacks and Governance" /></td>
+  </tr>
+</table>
+
+---
+
 ## Files at a Glance
 
 | # | File | Core Concept | Key ADK APIs |
