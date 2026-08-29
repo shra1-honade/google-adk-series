@@ -39,20 +39,20 @@ graph LR
 
 <table>
   <tr>
-    <td align="center"><strong>01 — Simple Agent</strong><br><img src="01-simple-agent.png" alt="Simple Agent" /></td>
-    <td align="center"><strong>02 — Session Memory</strong><br><img src="02-session-memory-agent.png" alt="Session Memory" /></td>
+    <td align="center"><strong>01 — Simple Agent</strong><br><img src="01-simple-agent/01-simple-agent.png" alt="Simple Agent" /></td>
+    <td align="center"><strong>02 — Session Memory</strong><br><img src="02-session-memory/02-session-memory-agent.png" alt="Session Memory" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>03 — State Management</strong><br><img src="03-state-management-agent.png" alt="State Management" /></td>
-    <td align="center"><strong>04 — Built-in Tools</strong><br><img src="04-tools-agent.png" alt="Built-in Tools" /></td>
+    <td align="center"><strong>03 — State Management</strong><br><img src="03-state-management/03-state-management-agent.png" alt="State Management" /></td>
+    <td align="center"><strong>04 — Built-in Tools</strong><br><img src="04-tools-agent/04-tools-agent.png" alt="Built-in Tools" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>05 — Custom Tool</strong><br><img src="05-custom-tool-agent.png" alt="Custom Tool" /></td>
-    <td align="center"><strong>06 — Parallel Agents</strong><br><img src="06-parallel-agents.png" alt="Parallel Agents" /></td>
+    <td align="center"><strong>05 — Custom Tool</strong><br><img src="05-custom-tool/05-custom-tool-agent.png" alt="Custom Tool" /></td>
+    <td align="center"><strong>06 — Parallel Agents</strong><br><img src="06-parallel-agents/06-parallel-agents.png" alt="Parallel Agents" /></td>
   </tr>
   <tr>
-    <td align="center"><strong>07 — Sequential + Parallel</strong><br><img src="07-sequential-parallel-agents.png" alt="Sequential + Parallel" /></td>
-    <td align="center"><strong>08 — Callbacks &amp; Governance</strong><br><img src="08-callbacks-filters-rate-limiter.png" alt="Callbacks and Governance" /></td>
+    <td align="center"><strong>07 — Sequential + Parallel</strong><br><img src="07-sequential-parallel/07-sequential-parallel-agents.png" alt="Sequential + Parallel" /></td>
+    <td align="center"><strong>08 — Callbacks &amp; Governance</strong><br><img src="08-callbacks-governance/08-callbacks-filters-rate-limiter.png" alt="Callbacks and Governance" /></td>
   </tr>
 </table>
 
@@ -62,14 +62,14 @@ graph LR
 
 | # | File | Core Concept | Key ADK APIs |
 |---|------|-------------|--------------|
-| 01 | `01-simple-agent.py` | Minimal agent + runner | `Agent`, `InMemoryRunner` |
-| 02 | `02-session-memory-agent.py` | Multi-turn conversation memory | `InMemorySessionService`, `Runner` |
-| 03 | `03-state-management-agent.py` | Structured key-value state | `session.state`, `get_session` |
-| 04 | `04-tools-agent.py` | Built-in tools (search + code exec) | `google_search`, `BuiltInCodeExecutor` |
-| 05 | `05-custom-tool-agent.py` | Custom Python function as tool | `FunctionTool` (auto-wrapped) |
-| 06 | `06-parallel-agents.py` | Fan-out to specialised agents | `ParallelAgent` |
-| 07 | `07-sequential-parallel-agents.py` | Research → Synthesis pipeline | `SequentialAgent`, `output_key` |
-| 08 | `08-callbacks-filters-rate-limiter.py` | Governance layer | Callbacks, `RunConfig`, rate limiter |
+| 01 | [`01-simple-agent.py`](01-simple-agent/01-simple-agent.py) | Minimal agent + runner | `Agent`, `InMemoryRunner` |
+| 02 | [`02-session-memory-agent.py`](02-session-memory/02-session-memory-agent.py) | Multi-turn conversation memory | `InMemorySessionService`, `Runner` |
+| 03 | [`03-state-management-agent.py`](03-state-management/03-state-management-agent.py) | Structured key-value state | `session.state`, `get_session` |
+| 04 | [`04-tools-agent.py`](04-tools-agent/04-tools-agent.py) | Built-in tools (search + code exec) | `google_search`, `BuiltInCodeExecutor` |
+| 05 | [`05-custom-tool-agent.py`](05-custom-tool/05-custom-tool-agent.py) | Custom Python function as tool | `FunctionTool` (auto-wrapped) |
+| 06 | [`06-parallel-agents.py`](06-parallel-agents/06-parallel-agents.py) | Fan-out to specialised agents | `ParallelAgent` |
+| 07 | [`07-sequential-parallel-agents.py`](07-sequential-parallel/07-sequential-parallel-agents.py) | Research → Synthesis pipeline | `SequentialAgent`, `output_key` |
+| 08 | [`08-callbacks-filters-rate-limiter.py`](08-callbacks-governance/08-callbacks-filters-rate-limiter.py) | Governance layer | Callbacks, `RunConfig`, rate limiter |
 
 ---
 
